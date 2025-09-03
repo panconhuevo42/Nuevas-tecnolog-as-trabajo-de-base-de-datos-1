@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #0d6efd; /* azul Bootstrap */
+}
+
+#tabla-busquedas {
+  transition: all 0.5s ease;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
