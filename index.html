@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Proyecto: Sensores IoT - Equipo X</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Sistemas Operativos, Seguridad y Más</a>
+    </div>
+  </nav>
+
+
+
+  <header class="container text-center py-5">
+    <h1 class="fw-bold">Proyecto BD-1: Nuevas Tecnologías y Sistemas Operativos</h1>
+    <p class="lead">
+      El tema seleccionado fue Sistemas Operativos, con un enfoque especial en su relación con la seguridad y el uso en
+      dispositivos móviles. La motivación para elegir este tema surge del interés por relacionar los proyectos de la
+      asignatura de Bases de Datos y Sistemas Operativos en un único trabajo integrado. Adicionalmente, se identificó un
+      interés personal en el campo de la seguridad informática, lo que llevó a seleccionar artículos que combinaran
+      ambas áreas: sistemas operativos y seguridad.
+    </p>
+  </header>
+
+
+  <!-- Evidencia -->
+  <section class="container text-center mb-5">
+    <h2 class="mb-3">Evidencia</h2>
+    <img src="evidencia de la busqueda avanzada.png" alt="evidencia de la busqueda avanzada"
+      class="img-fluid rounded shadow">
+  </section>
+
+
+
+  <!-- Búsquedas realizadas -->
+  <section id="busquedas" class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h2>Búsquedas realizadas</h2>
+      <button class="btn btn-primary" onclick="toggleTabla()">Mostrar/Ocultar tabla</button>
+    </div>
+
+    <table id="tabla-busquedas" class="table table-bordered table-striped table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Nombre del estudiante que investigo</th>
+          <th>BD</th>
+          <th>Cadena de búsqueda</th>
+          <th>Descripción del artículo (traducida)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Nicolas Ayala</td>
+          <td>Forgettify: An application to help people with memory limitations</td>
+          <td>TITLE-ABS-KEY ( "operating systems" ) AND ( LIMIT-TO ( SUBJAREA , "COMP" ) OR LIMIT-TO ( SUBJAREA , "ENGI"
+            ) ) AND ( LIMIT-TO ( DOCTYPE , "ar" ) ) AND ( LIMIT-TO ( LANGUAGE , "English" ) OR LIMIT-TO ( LANGUAGE ,
+            "Spanish" ) ) AND ( LIMIT-TO ( EXACTKEYWORD , "Computer Operating Systems" ) OR LIMIT-TO ( EXACTKEYWORD ,
+            "Android (operating System)" ) )</td>
+          <td>Este artículo describe Forgettify, una aplicación diseñada y desarrollada para ayudar a personas con
+            limitaciones de memoria. Forgettify es una aplicación para Android que utiliza servicios ReST, los cuales se
+            gestionan mediante un cliente web. La aplicación proporciona un conjunto de videoguías que utilizan las
+            personas con limitaciones de memoria. El cliente web es la herramienta que utilizan profesionales y familias
+            para personalizar la aplicación para Android. El artículo incluye una evaluación preliminar de usuarios que
+            muestra los beneficios de la propuesta.</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Nicolas Ayala</td>
+          <td>AndroidBLP for Confidentiality Management in Android Environments</td>
+          <td>TITLE-ABS-KEY ( "operating systems" ) AND ( LIMIT-TO ( SUBJAREA , "COMP" ) OR LIMIT-TO ( SUBJAREA , "ENGI"
+            ) ) AND ( LIMIT-TO ( DOCTYPE , "ar" ) ) AND ( LIMIT-TO ( LANGUAGE , "English" ) OR LIMIT-TO ( LANGUAGE ,
+            "Spanish" ) ) AND ( LIMIT-TO ( EXACTKEYWORD , "Computer Operating Systems" ) OR LIMIT-TO ( EXACTKEYWORD ,
+            "Android (operating System)" ) )</td>
+          <td>Los usuarios utilizan teléfonos inteligentes y tabletas para gestionar y almacenar información personal y
+            corporativa. Sin embargo, almacenar distintos tipos de información en un mismo dispositivo puede provocar
+            fugas de información. Los usuarios necesitan herramientas para definir diferentes requisitos de
+            confidencialidad sobre sus datos e implementar distintas políticas de acceso según dichos requisitos.
+            Android es el sistema operativo móvil más utilizado y, si bien implementa diversos mecanismos para proteger
+            la información del usuario, no dispone de ninguna herramienta que satisfaga estas necesidades. Este artículo
+            presenta AndroidBLP, una herramienta basada en el modelo de confidencialidad de Bell-LaPadula que implementa
+            una política de control de acceso obligatoria predefinida, permite a los usuarios definir requisitos de
+            confidencialidad e implementa una política de confidencialidad basada en dichos requisitos.</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>Nicolas Ayala</td>
+          <td>Privacy and Security in Mobile Personal Health Records for Android and iOS</td>
+          <td>TITLE-ABS-KEY ( "operating systems" ) AND ( LIMIT-TO ( SUBJAREA , "COMP" ) OR LIMIT-TO ( SUBJAREA , "ENGI"
+            ) ) AND ( LIMIT-TO ( DOCTYPE , "ar" ) ) AND ( LIMIT-TO ( LANGUAGE , "English" ) OR LIMIT-TO ( LANGUAGE ,
+            "Spanish" ) ) AND ( LIMIT-TO ( EXACTKEYWORD , "Computer Operating Systems" ) OR LIMIT-TO ( EXACTKEYWORD ,
+            "Android (operating System)" ) )</td>
+          <td>En los últimos años, el aumento en el uso de dispositivos móviles, como teléfonos inteligentes y tabletas,
+            ha despertado el interés de los proveedores de servicios de salud en el mundo de la salud móvil (mHealth).
+            Los historiales médicos personales móviles (mPHR) ofrecen numerosos beneficios y existen estudios que
+            demuestran la disposición de los pacientes a usarlos. Sin embargo, su uso es bajo. La seguridad y la
+            privacidad se han identificado como importantes barreras para su adopción y, por lo tanto, deben abordarse.
+            Mediante un método similar a la conocida revisión sistemática de la literatura, se identificaron 24 mPHR
+            para Android e iOS. La seguridad y la privacidad de los mPHR se evaluaron mediante un cuestionario de 12
+            preguntas. Nuestra investigación muestra que los desarrolladores de mPHR deberían mejorar significativamente
+            sus políticas de privacidad.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+  <!-- Botón de cambio de fondo -->
+  <div class="container text-center mb-5">
+    <button class="btn btn-success" onclick="cambiarFondo()">Cambiar color de fondo</button>
+  </div>
+
+
+  <footer class="container text-center py-4 border-top">
+    <p>
+      Publicado en GitHub Pages:
+      <a href="https://github.com/panconhuevo42/Nuevas-tecnolog-as-trabajo-de-base-de-datos-1/tree/main"
+        target="_blank">proyecto panconhuevo42</a>
+    </p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
